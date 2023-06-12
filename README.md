@@ -21,3 +21,8 @@ rosrun joy joy_node
 # Notes for running the code
 1. Copy the above files in the catkinworkspace, src folder.
 2. Then outside the folder run `catkin_make` in terminal.
+3. Then finally: 
+  ```
+    rosrun <your_package_name> joy_listener.py
+    
+  ```
